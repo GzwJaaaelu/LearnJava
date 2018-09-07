@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5daff100-fdc7-434c-b21b-2fcc64518eee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/durian.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/somePackage/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/Info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestCWithArg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestFWithArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5daff100-fdc7-434c-b21b-2fcc64518eee" name="Default" comment="第七章 复用类笔记。">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/Info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/Info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/PackageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/accessControl/somePackage/PackageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,34 +26,35 @@
     <session id="1959720580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Info" value="5" />
-          <entry key="java" value="13" />
+          <entry key="Info" value="6" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Info" value="3467" />
-          <entry key="java" value="631" />
+          <entry key="Info" value="5672" />
+          <entry key="java" value="1033" />
+          <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="631" />
-          <entry key="PLAIN_TEXT" value="3467" />
+          <entry key="JAVA" value="1033" />
+          <entry key="PLAIN_TEXT" value="5685" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -74,52 +65,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/Info">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="612">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestFWithArg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="206">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="298">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestCWithArg.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -481,6 +470,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestCWithArg.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestF.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/Info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info" />
       </list>
     </option>
   </component>
@@ -506,6 +499,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -556,17 +550,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="accessControl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
+              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
@@ -577,23 +561,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="reuseClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnJava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="reuseClass" type="462c0819:PsiDirectoryNode" />
-              <item name="extendsTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -602,7 +574,7 @@
     <property name="SearchEverywhereHistoryKey" value="PQue&#9;PSI&#9;JAVA://java.util.PriorityQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536071084980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536331233166" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -615,11 +587,11 @@
       <recent name="com.jaaaelu.gzw.learn.java.thinkingInJava.everythingIsAnObject" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass" />
       <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\accessControl" />
       <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\initializationAndCleanup" />
       <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\controlExecutionFlow" />
-      <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\operator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -634,9 +606,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RunManager" selected="Application.Test (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.polymorphism.Base" />
+      <module name="LearnJava_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -683,13 +669,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.operator.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.polymorphism.Test" />
       <module name="LearnJava_main" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.operator.*" />
+          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -822,18 +808,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Base" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Base" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -863,27 +850,28 @@
       <workItem from="1535979955206" duration="5255000" />
       <workItem from="1536065537916" duration="4404000" />
       <workItem from="1536239676927" duration="433000" />
-      <workItem from="1536241560448" duration="5260000" />
+      <workItem from="1536241560448" duration="5381000" />
+      <workItem from="1536319749387" duration="8876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107371000" />
+    <option name="totallyTimeSpent" value="116368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23443224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
       <window_info id="Structure" order="1" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -911,6 +899,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第七章 复用类笔记。" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七章 复用类笔记。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/语音听写（长语音） Android SDK 内部正式环境接口文档.html" />
@@ -1085,10 +1077,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestCWithArg.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/operator/Info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-40">
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/Info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1099,38 +1098,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/operator/Info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/Info">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass/extendsTest/TestCWithArg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
