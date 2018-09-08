@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5daff100-fdc7-434c-b21b-2fcc64518eee" name="Default" comment="第七章 复用类笔记。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestAbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,35 +27,37 @@
     <session id="1959720580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Info" value="6" />
-          <entry key="java" value="16" />
+          <entry key="Info" value="7" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="21" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Info" value="5672" />
-          <entry key="java" value="1033" />
+          <entry key="Info" value="7312" />
+          <entry key="java" value="1307" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1033" />
-          <entry key="PLAIN_TEXT" value="5685" />
+          <entry key="JAVA" value="1307" />
+          <entry key="PLAIN_TEXT" value="7325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -65,53 +68,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="435">
+              <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestAbs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="105">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -134,6 +137,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -428,10 +434,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/anIntroductionToTheObject/Info" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/anIntroductionToTheObject/Info" />
-        <option value="$USER_HOME$/Desktop/语音听写（长语音） Android SDK 内部正式环境接口文档.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/anIntroductionToTheObject/Info" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/anIntroductionToTheObject/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/everythingIsAnObject/Info" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/everythingIsAnObject/E2_1.java" />
@@ -474,6 +476,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestAbs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestAbs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Tesr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Info" />
       </list>
     </option>
   </component>
@@ -499,7 +510,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -550,7 +561,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="polymorphism" type="462c0819:PsiDirectoryNode" />
+              <item name="interface9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnJava" type="b2602c69:ProjectViewProjectNode" />
@@ -560,13 +571,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="reuseClass" type="462c0819:PsiDirectoryNode" />
+              <item name="interface9" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -574,7 +586,7 @@
     <property name="SearchEverywhereHistoryKey" value="PQue&#9;PSI&#9;JAVA://java.util.PriorityQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536331233166" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536418024372" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -587,11 +599,11 @@
       <recent name="com.jaaaelu.gzw.learn.java.thinkingInJava.everythingIsAnObject" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/reuseClass" />
       <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\accessControl" />
       <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\initializationAndCleanup" />
-      <recent name="E:\LearnJava\src\main\java\com\jaaaelu\gzw\learn\java\thinkingInJava\controlExecutionFlow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -606,7 +618,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -620,20 +632,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.controlExecutionFlow.Test" />
-      <module name="LearnJava_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.controlExecutionFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -683,24 +681,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.interface9.Test" />
+      <module name="LearnJava_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.initializationAndCleanup.*" />
+          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.interface9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.initializationAndCleanup.Test" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearnJava_main" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -808,19 +801,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Base" />
+      <item itemvalue="Application.Test (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Base" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -852,26 +845,28 @@
       <workItem from="1536239676927" duration="433000" />
       <workItem from="1536241560448" duration="5381000" />
       <workItem from="1536319749387" duration="8876000" />
+      <workItem from="1536410525208" duration="2141000" />
+      <workItem from="1536412796314" duration="4466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116368000" />
+    <option name="totallyTimeSpent" value="122975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24236874" />
       <window_info id="Structure" order="1" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -882,6 +877,7 @@
       <window_info anchor="bottom" id="Build" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32941177" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -905,18 +901,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="第七章 复用类笔记。" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/语音听写（长语音） Android SDK 内部正式环境接口文档.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/Info">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/everythingIsAnObject.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/everythingIsAnObject/E2_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/everythingIsAnObject/E2_8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1126,47 +1110,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="300">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestAbs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/test/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/Info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
         </state>
       </provider>
     </entry>
