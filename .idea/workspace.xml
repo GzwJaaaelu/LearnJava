@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5daff100-fdc7-434c-b21b-2fcc64518eee" name="Default" comment="第七章 复用类笔记。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/GenericArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/HasF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestCapture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestGenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestUnbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jaaaelu/gzw/learn/java/thinkingInJava/rtti/TestReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jaaaelu/gzw/learn/java/thinkingInJava/rtti/TestReflect.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,43 +29,43 @@
     <session id="1959720580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.7" value="8" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Info" value="19" />
+          <entry key="Info" value="20" />
           <entry key="class" value="2" />
-          <entry key="java" value="70" />
+          <entry key="java" value="72" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="70" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="72" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Info" value="16965" />
-          <entry key="java" value="8842" />
+          <entry key="Info" value="17363" />
+          <entry key="java" value="9184" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8842" />
-          <entry key="PLAIN_TEXT" value="16978" />
+          <entry key="JAVA" value="9184" />
+          <entry key="PLAIN_TEXT" value="17376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -86,135 +77,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestCapture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/HasF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/New.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/A.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Info">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestGenericMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+            <state relative-caret-position="185">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
-                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/GenericArray.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="31" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestUnbounded.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-277">
+              <caret line="5160" column="24" selection-start-line="5160" selection-start-column="24" selection-end-line="5160" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -535,8 +424,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Child.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/polymorphism/Info" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/interface9/TestInterface.java" />
@@ -586,6 +473,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/GenericArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Info" />
       </list>
     </option>
   </component>
@@ -611,6 +500,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -661,22 +553,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/durian/IdeaProjects/LearnJava/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Test.java&#10;Number&#9;PSI&#9;JAVA://java.lang.Number&#10;PQue&#9;PSI&#9;JAVA://java.util.PriorityQueue" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537707597935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537789872834" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -689,11 +578,11 @@
       <recent name="com.jaaaelu.gzw.learn.java.thinkingInJava.everythingIsAnObject" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/rtti" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/string" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/Exceptions" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/sourceFromBook" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -708,7 +597,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCapture">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -729,13 +618,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.rtti.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jaaaelu.gzw.learn.java.thinkingInJava.array.Test" />
       <module name="LearnJava_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.rtti.*" />
+          <option name="PATTERN" value="com.jaaaelu.gzw.learn.java.thinkingInJava.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -815,19 +704,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.TestReflect" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.TestCapture" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.TestCapture" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TestReflect" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -869,11 +758,13 @@
       <workItem from="1537589632307" duration="628000" />
       <workItem from="1537591355975" duration="16227000" />
       <workItem from="1537680860773" duration="16376000" />
+      <workItem from="1537760667588" duration="590000" />
+      <workItem from="1537764803901" duration="5601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192727000" />
+    <option name="totallyTimeSpent" value="198918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,8 +777,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26678878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728938" />
       <window_info id="Structure" order="1" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -896,7 +788,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5721925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5721925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -964,31 +856,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/internalClass/InterfaceA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/internalClass/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="264" column="12" selection-start-line="264" selection-start-column="12" selection-end-line="264" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="4320" column="8" selection-start-line="4320" selection-start-column="8" selection-end-line="4320" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1212,22 +1083,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/HasF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/New.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestGenericMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1238,91 +1125,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestUnbounded.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestGenericMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestCapture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/HasF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/GenericArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="37" column="52" lean-forward="true" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="525">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/GenericArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/TestUnbounded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="5160" column="24" selection-start-line="5160" selection-start-column="24" selection-end-line="5160" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/generic/Info">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jaaaelu/gzw/learn/java/thinkingInJava/array/Info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="90">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
