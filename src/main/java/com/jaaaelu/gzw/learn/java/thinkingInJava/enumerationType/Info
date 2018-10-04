@@ -1,0 +1,28 @@
+第十九章 枚举类型
+
+1.除了不能继承自一个 enum 之外，我们基本上可以 enum 看作一个常规的类。也就是说，我们可以向 enum 中添加方法。enum 甚至可以有 main() 方法。
+当然，构造，成员变量都是可以有的。默认 toString 会打印该枚举的名字，可以我们重写。不过想要定义自己的方法之前，一定要有分号。
+2.枚举谁让也要有构造，但是外界是访问不到，一旦枚举声明结束，编译器就不允许我们再使用其构造器来创建任何实例了。
+3.编译器回你穿件 enum 类都继承自 Enum 类。但是 Enum 这个 Java 类中没有 values() 这个方法，values() 是由编译器添加的 static 方法。此
+外还添加了单参数的 valueOf() 方法。
+4.编译器将我自定义 Shrubbery 枚举类标记为 final 类，所以无法继承自 enum。以下为 javap Shrubbery 对应输出：
+Compiled from "Shrubbery.java"
+public final class com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery extends
+java.lang.Enum<com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery> {
+  public static final com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery GROUND;
+  public static final com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery CRAWLING;
+  public static final com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery HANGING;
+  public static final com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery TEST;
+  public static com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery[] values();
+  public static com.jaaaelu.gzw.learn.java.thinkingInJava.enumerationType.Shrubbery valueOf(java.lang.String);
+  public void test();
+  public java.lang.String toString();
+  static {};
+}
+不过这里还有一句 static {};
+5.虽然 Enum 类里面没有 values() 方法，不过 Enum 的 getClass().getEnumConstants() 效果也是和 values() 一样的。
+6.我们无法继承自枚举类，也无法在定义枚举类的时候让其继承自某个类，因为枚举其实是继承自 Enum 类，不过枚举可以实现一个或多个接口。
+7.枚举类中可以嵌套枚举类。
+8.每一个 enum 元素都是一个 Shrubbery（本例中）类型的 static final 实例，所以这也就解释了为什么在 Shrubbery 定义了一个抽象方法之后，需
+要在每个 enum 元素中都进行重写。也被成为常量相关方法。
+9. 当然 enum 元素中也可以重写其他非抽象的方法就像正常的类中一样。
