@@ -1,4 +1,4 @@
-package com.jaaaelu.gzw.learn.java.thinkingInJava.Exceptions;
+package com.jaaaelu.gzw.learn.java.thinkingInJava.exceptions;
 
 public class TestC extends TestP {
 
